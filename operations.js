@@ -38,7 +38,7 @@ export const operations = [
     contributor: "shmuel",
     execute: (base, exponent) => base ** exponent,
   },
- {
+  {
     id: "factorial",
     label: "Factorial",
     symbol: "n!",
@@ -63,12 +63,25 @@ export const operations = [
     id: "division",
     label: "Division",
     symbol: "÷",
-    args: 2,
+    arity: 2,
     execute: (a, b) => {
       if (b === 0) {
         throw new Error("Cannot divide by zero");
       }
       return a / b;
+    },
+  },
+  {
+    id: "sqrt",
+    label: "Square Root",
+    symbol: "√",
+    arity: 1,
+    contributor: "יצחק בלוך וג'מיני",
+    execute: (n) => {
+      if (n < 0) {
+        throw new Error("Cannot take square root of a negative number");
+      }
+      return Math.sqrt(n);
     },
   },
 

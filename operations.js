@@ -78,7 +78,7 @@ export const operations = [
       return a / b;
     },
   },
-  
+
   {
     id: "min",
     label: "minimum",
@@ -116,4 +116,13 @@ export const operations = [
       return Math.sqrt(n);
     },
   },
+  {
+    id: "percentage",
+    label: "Percentage",
+    symbol: "%",
+    arity: 2,
+    contributor: "יחיאל",
+    execute: (a, b) => (a / 100) * b,
+  },
+
 ];

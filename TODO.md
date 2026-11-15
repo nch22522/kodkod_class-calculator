@@ -12,7 +12,7 @@ Choose an unclaimed function and add your name. Check the box when your implemen
 | [ ]  | Power                   |         | תפוס שמואל        |
 | [ ]  | Modulo (remainder)      |         | תפוס פנחס גרינפלד |
 | [ ]  | Square Root             |         |
-| [ ]  | Percentage              |         |
+| [X]  | Percentage              |         |יחיאל
 | [ ]  | Factorial               |         | תפוס פנחס גרינפלד |
 | [ ]  | Absolute Value          |         |
 | [ ]  | Sine                    |         |
